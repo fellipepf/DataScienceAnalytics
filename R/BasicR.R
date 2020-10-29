@@ -8,6 +8,7 @@
 #clear enviroment
 rm(list=ls())
 
+
 #clear graph
 graphics.off()
 
@@ -40,3 +41,4 @@ x <- c(7,5,3,6,7,5,4,2,1,111,232,445,656,76)
 x
 sort(x)
 order(x) # returns a index vector containing the sorted order of the vector vec
+x[order(x)]
